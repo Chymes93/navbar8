@@ -1,0 +1,191 @@
+/* this is for google fonts */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+/* this is a universal selector for all text on the html document */
+* {
+    font-family: "DM Sans", sans-serif;
+}
+
+
+/* this is for custom fonts */
+/* @font-face {
+    font-family: "myhtml-font";
+    src: url("./fonts/MonumentExtended-Ultrabold.otf");
+} */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #fdfdfe;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+.site-nav ul {
+    display: flex;
+}
+
+.site-nav ul li a {
+    color: #b77efa;
+    text-decoration: none;
+    /* margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 20px */
+
+    margin: 10px 20px;
+    line-height: 2.2;
+}
+
+.site-nav ul li {
+    list-style: none;
+}
+
+.btn {
+    outline: none;
+    box-shadow: none;
+    background: transparent;
+    color: #9b4991;
+    border: 1px solid rgb(146, 142, 142);
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+
+
+
+
+.logo {
+    margin-top: 22px;
+}
+.hero-section-mother {
+    background-image: url(./Image/Image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    
+}
+.hero-section-content {
+    text-align: center;
+    padding-top: 350px;
+}
+.hero-btnn {   
+    box-shadow: none;
+    background-color: #482BE7;
+    color: #ffffff;
+    border: 1px solid rgb(55, 35, 239);
+    padding: 10px 30px;
+    border-radius: 20px;    
+}
+.hero-section-content h1, p {
+    color: #ffffff;
+}
+.content-section-mother {
+    height: 300px;
+}
+.content-section-body {
+    text-align: center;
+    padding-top: 100px;
+    color: #1E0E62;
+}
+.feature-head {
+    text-align: center;
+    padding-top: 80px;
+}
+
+.feature-two, .feature-copy {
+    display: flex;
+    margin-left: 300px;
+    font-size: 12px;
+    gap:30px;
+    padding-top: 70px;
+}
+
+.feature-copy {
+    margin-bottom: 100px;
+    padding-top: 25px;
+}
+
+.feature-two {
+    padding-bottom: 5px;
+}
+
+.feature-head h1 {
+    color:#1E0E62;
+}
+
+.feature-two h4, .feature-copy h4 {
+    color:#1E0E62;
+}
+
+.feature-two p, .feature-copy p {
+    color:#15143966
+}
+
+.botton-bux {
+    display: flex;
+    gap:50px;
+    margin-left: 300px;
+    margin-top: 80px;
+}
+
+.headpara {
+    text-align: center;
+    font-size: 12px;
+    padding-top: 150px;
+}
+.form8-section {
+    background-image: url(./Image/Background\ \(2\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    background-color:#2F1893;
+}
+
+.headpara h1 {
+    color:#fff
+}
+
+.headpara p {
+    color: #f2f0f0;
+    font-size: 10px;
+}
+
+.form-control1 {
+    outline: none;
+    box-shadow: none;
+    background: transparent;
+    padding: 10px 25px;
+    border: 1px solid rgb(112, 105, 105);
+    border-radius: 20px;
+    color: #fff;
+}
+
+.form-control2 {
+    outline: none;
+    box-shadow: none;
+    background: transparent;
+    padding: 10px 25px;
+    border: 1px solid rgb(112, 105, 105);
+    border-radius: 20px;
+    color: #fff;
+    width: 300px;
+}
+
+.signbot {
+    border: 0;
+    background: #25DAC5;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+
+.parany {
+    color:#FFFFFF;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+
